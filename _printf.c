@@ -7,7 +7,7 @@
 int _printf(const char *format, ...)
 {
 	/** my variables */
-	int i, j, num_chars = 0;
+	int i, num_chars = 0;
 	/** pointer to i */
 	int *pi = &i;
 	/** initialize my list */
