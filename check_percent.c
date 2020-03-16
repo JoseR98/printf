@@ -1,7 +1,4 @@
 #include "holberton.h"
-int validate_even(const char *format, int *i, va_list args, int num_percent);
-int validate_odd(const char *format, int *i, va_list args, int num_percent);
-int valid_percentage(int num_percent);
 /**
  * check_percent - check number of percentages to print them
  * @format: pointer to first string's character passed to _printf
