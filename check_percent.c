@@ -8,7 +8,7 @@
  */
 int check_percent(const char *format, int *i, va_list args)
 {
-	int num_percent = 0, j = 0, result = 0;
+	int num_percent = 0, result = 0;
 
 	while (format[*i] == '%') /**checking if format position is % */
 	{
@@ -97,6 +97,7 @@ int validate_even(const char *format, int *i, va_list args, int num_percent)
 	};
 	int counter = 0, num_chars2 = 0, j;
 
+	args = args;
 	while (fns[counter].identifier != NULL)
 	{
 		if (format[*i] == *fns[counter].identifier)/**value equal to identifier*/
