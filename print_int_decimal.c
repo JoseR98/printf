@@ -52,7 +52,7 @@ int fn_int(va_list args)
 	}
 	else if (x == 0)
 	{
-		_putchar(0);
+		_putchar(0 + '0');
 		return (1);
 	}
 	else
