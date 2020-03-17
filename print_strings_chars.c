@@ -9,7 +9,7 @@ int fn_string(va_list list)
 	char *s;
 
 	s = va_arg(list, char *);
-	_puts(s);
+	puts(s);
 	return (_strlen(s));
 }
 /**
