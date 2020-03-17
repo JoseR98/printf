@@ -10,8 +10,12 @@ int fn_Hexa(va_list args)
 	char hexaDeciNum[100];
 	unsigned int i, n, temp;
 	int j;
-	n = va_arg(args, int);
 
+	n = va_arg(args, int);
+	if (!n)
+	{
+		return (-1);
+	}
 	/** counter for hexadecimal number array */
 	i = 0;
 	while (n != 0)
@@ -53,7 +57,12 @@ int fn_hexa(va_list args)
 	char hexaDeciNum[100];
 	unsigned int i, n, temp;
 	int j;
+
 	n = va_arg(args, int);
+	if (!n)
+	{
+		return (-1);
+	}
 	/** counter for hexadecimal number array */
 	i = 0;
 	while (n != 0)
