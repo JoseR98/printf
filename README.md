@@ -11,11 +11,15 @@ This project is about making our own printf function in C programming languaje ,
 ```bash
 git clone https://github.com/JoseR98/printf.git
 ```
+**Logic used to develop the project**
+
+
+
 
 ##  Testing cases. ⚙️
 
 ```python
-_printf(NULL);
+	_printf(NULL);
 	printf(NULL);
 	printf("--------------------------\n");
 	printf("Testing %% without formats\n");
@@ -80,7 +84,7 @@ void main()
 	printf("-------Say hi---------\n");
 	_printf("Own printf is greeting: -> %s\n", greeting );
 	printf("Original printf greeting: -> %s\n", greeting );
-  int holbi = 'H';
+  	int holbi = 'H';
 	_printf("Holberton first Letter: -> %c \n ", holbi );
 	printf("Holberton first Letter: -> %c \n ", holbi );
 }
@@ -127,7 +131,7 @@ void main()
 	_printf("Own printf which is betty's year birthday ?: -> %d \n ", year );
 	printf("Original printf which is betty's year birthday?: -> %d \n ", year );
   
-  _printf("=============\n");
+  	_printf("=============\n");
 	_printf("TESTING CASES\n");
 	_printf("=============\n\n");	
 	int actualYear = 2020;
@@ -225,9 +229,9 @@ void main()
 	ui = (unsigned int)INT_MAX + 1024;
 
 	_printf("Own printf -> Unsigned octal: -> [%o]\n", ui);
-  printf("Original printf Unsigned octal:[%o]\n", ui);
-  _printf("Own printf -> Unsigned hexadecimal:[%x, %X]\n", ui, ui);
-  printf("Original printf Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+  	printf("Original printf Unsigned octal:[%o]\n", ui);
+  	_printf("Own printf -> Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+  	printf("Original printf Unsigned hexadecimal:[%x, %X]\n", ui, ui);
 	
 
 }
@@ -344,17 +348,5 @@ Handle the following custom conversion specifier:
   **Juan Sebastian Bueno** - *GitHub user* ➞ 🖥  [sebastianbm9507](https://github.com/sebastianbm9507)     
   
   **March 17 2020**
-
   
-
-  
-
-  ​	
-
-  
-
-  
-
-  
-
   
