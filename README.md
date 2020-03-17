@@ -1,6 +1,8 @@
 
-
-# _Printf in c
+<img src="https://www.holbertonschool.com/holberton-logo.png"
+     alt="Flow chart"
+     style="float: left; margin-right: 10px;">
+# _Printf Function
 
 ***Description*** 📋
 
@@ -11,10 +13,15 @@ This project is about making our own printf function in C programming languaje ,
 ```bash
 git clone https://github.com/JoseR98/printf.git
 ```
+>Remember to compile with the following command:
+```bash
+gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+```
 **Logic used to develop the project**
 
-
-
+<img src="Diagrama de flujo general.png"
+     alt="Flow chart"
+     style="float: left; margin-right: 10px;">
 
 ##  Testing cases. ⚙️
 
@@ -347,6 +354,6 @@ Handle the following custom conversion specifier:
 
   **Juan Sebastian Bueno** - *GitHub user* ➞ 🖥  [sebastianbm9507](https://github.com/sebastianbm9507)     
   
-  **March 17 2020**
+  **March/17/2020**
   
   
